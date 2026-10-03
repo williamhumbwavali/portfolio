@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ArrowUpRight } from "lucide-react";
 
 const links = [
   { href: "#top", label: "Início" },
@@ -70,13 +71,15 @@ export default function Navigation() {
             className="flex h-10 w-10 appearance-none flex-col items-center justify-center gap-[6px] border-0 bg-transparent p-0 outline-none shadow-none focus:border-0 focus:outline-none focus:ring-0 active:border-0 active:outline-none md:hidden"
           >
             <span
-              className={`block h-[2px] w-[20px] bg-white transition-transform duration-200 ${open ? "translate-y-[4px] rotate-45" : ""
-                }`}
+              className={`block h-[2px] w-[20px] bg-white transition-transform duration-200 ${
+                open ? "translate-y-[4px] rotate-45" : ""
+              }`}
             />
 
             <span
-              className={`block h-[2px] w-[20px] bg-white transition-transform duration-200 ${open ? "-translate-y-[4px] -rotate-45" : ""
-                }`}
+              className={`block h-[2px] w-[20px] bg-white transition-transform duration-200 ${
+                open ? "-translate-y-[4px] -rotate-45" : ""
+              }`}
             />
           </button>
         </div>
@@ -84,10 +87,11 @@ export default function Navigation() {
 
       {/* MOBILE MENU */}
       <div
-        className={`absolute left-0 right-0 top-full px-5 transition-all duration-300 md:hidden ${open
+        className={`absolute left-0 right-0 top-full px-5 transition-all duration-300 md:hidden ${
+          open
             ? "pointer-events-auto translate-y-0 opacity-100"
             : "pointer-events-none -translate-y-2 opacity-0"
-          }`}
+        }`}
       >
         <div className="mx-auto w-full max-w-[500px] overflow-hidden rounded-2xl bg-[#101114] p-2 shadow-xl shadow-black/30">
           {links.map((link) => (
@@ -99,9 +103,11 @@ export default function Navigation() {
             >
               <span>{link.label}</span>
 
-              <span className="text-xs text-white/25">
-                ↗
-              </span>
+              <ArrowUpRight
+                size={14}
+                strokeWidth={1.8}
+                className="text-white/25"
+              />
             </a>
           ))}
 
@@ -112,7 +118,7 @@ export default function Navigation() {
           >
             <span>Contacto</span>
 
-            <span className="text-xs">↗</span>
+            <ArrowUpRight size={14} strokeWidth={1.8} />
           </a>
         </div>
       </div>
