@@ -147,17 +147,17 @@ export const projects = [
     type: "Plataforma musical · Full-stack · Concluído",
     name: "Bad Vibes Forever",
     description:
-      "Plataforma de música focada em artistas independentes, criada para publicar, distribuir e ouvir músicas num só lugar. Inclui perfis de artistas, álbuns, playlists, reprodução, favoritos, histórico, downloads e upload.", 
-      technologies: [
-        "Next.js",
-        "React",
-        "Zustand",
-        "NestJS",
-        "PostgreSQL",
-        "TypeORM",
-        "Docker",
-        "Cloudflare R2",
-      ],
+      "Plataforma de música focada em artistas independentes, criada para publicar, distribuir e ouvir músicas num só lugar. Inclui perfis de artistas, álbuns, playlists, reprodução, favoritos, histórico, downloads e upload.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Zustand",
+      "NestJS",
+      "PostgreSQL",
+      "TypeORM",
+      "Docker",
+      "Cloudflare R2",
+    ],
     links: [
       {
         label: "Frontend",
@@ -225,7 +225,7 @@ export const experience = [
     period: "2025",
     title: "Development Lead / Full-Stack Developer",
     company: "Njila",
-    location: "Luanda, Angola",
+    location: "Avenida Ho Chi Minh, Luanda, Angola",
     description:
       "Liderou o desenvolvimento da Njila, uma startup de mobilidade urbana que operou em Luanda, com foco nas deslocações de estudantes, incluindo os do ISPTEC. Coordenou a equipa de desenvolvimento, geriu tarefas e prioridades, acompanhou o progresso técnico e participou na definição do roadmap e da arquitetura da plataforma. Desenvolveu funcionalidades centrais, como localização em tempo real e agendamento de viagens, com foco em segurança, desempenho e fiabilidade.",
     technologies: [
@@ -242,7 +242,6 @@ export const experience = [
       "WebSockets",
     ],
   },
-
   {
     period: "Freelance",
     title: "Front-End Developer",
@@ -258,14 +257,37 @@ export const experience = [
       "REST APIs",
     ],
   },
-
+  {
+    period: "2024–2025",
+    title: "Formação Intensiva",
+    company: "42 Luanda",
+    location: "Talatona, Luanda, Angola",
+    description:
+      "Formação intensiva baseada em projetos, com foco em programação, algoritmos, estruturas de dados, sistemas Unix e resolução de problemas. Desenvolvimento através de aprendizagem prática, projetos individuais e avaliação entre pares.",
+    technologies: [
+      "C",
+      "C++",
+      "Unix",
+      "Git",
+      "Algorithms",
+      "Data Structures",
+    ],
+  },
   {
     period: "Em curso",
     title: "Formação",
     company: "Universidade Gregório Semedo",
-    location: "Angola",
+    location: "Morro Bento, Luanda, Angola",
     description:
       "Engenharia Informática, com formação em algoritmos, estruturas de dados, redes de computadores e engenharia de software. Experiência adicional de aprendizagem baseada em projetos.",
+    technologies: [
+      "C",
+      "SQL",
+      "Algorithms",
+      "Data Structures",
+      "Computer Networks",
+      "Databases",
+    ],
   },
 ];
 
