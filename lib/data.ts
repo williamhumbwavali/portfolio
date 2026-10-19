@@ -17,7 +17,7 @@ export const personal = {
   links: {
     github: "https://github.com/williamhumbwavali",
     linkedin: "https://www.linkedin.com/in/williamhumbwavali/",
-    baza: "https://bazaja.vercel.app/",
+    baza: "https://bazaja.com/",
     lithe: "https://pt-lithephp.vercel.app/",
   },
 };
@@ -63,7 +63,7 @@ export const projects = [
     links: [
       {
         label: "Site",
-        href: "https://bazaja.vercel.app/",
+        href: "https://bazaja.com/",
       },
     ],
     artwork: "baza",
