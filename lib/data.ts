@@ -45,12 +45,13 @@ export const heroProjects = [
 ];
 
 export const projects = [
+
   {
     number: "01",
-    type: "Startup · Pré-lançamento · Co-founder",
+    type: "Startup · Pré-lançamento · Founder",
     name: "Baza",
     description:
-      "Plataforma de mobilidade por subscrição para estudantes e trabalhadores em Luanda. O produto permite reservar lugares antecipadamente em rotas definidas e inclui aplicações para passageiros e motoristas, painel administrativo e backend.",
+      "Plataforma de mobilidade por subscrição para estudantes e trabalhadores em Luanda. O produto inclui aplicações para passageiros e motoristas, painel administrativo e backend, com viagens em rotas definidas e horários previsíveis.",
     technologies: [
       "Next.js",
       "NestJS",
