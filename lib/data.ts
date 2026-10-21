@@ -3,7 +3,7 @@ export const personal = {
   firstName: "William",
   lastName: "Humbwavali",
   role: "Desenvolvedor de Software",
-  location: "Luanda, Angola · Remoto",
+  location: "Luanda, Angola",
 
   description:
     "Desenvolvo software do zero até à produção — frameworks, CMSs e produtos web, mobile e backend.",
